@@ -1,4 +1,4 @@
-## <center>女生节快乐！<\center>
+## <center>女生节快乐！</center>
 
 
 
@@ -26,7 +26,7 @@ var text = document.getElementById("text");
 text.firstChild.nodeValue = butong_net[butong_net2];
 }
 window.onload = content;
-    <\center>
+    </center>
 </script>
 </head>
 <body>
