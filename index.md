@@ -26,6 +26,5 @@ window.onload = content;
 </script>
 </head>
 <body>
-<p id="text">野鹿志测试</p>
 </body>
 </html>
