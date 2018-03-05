@@ -1,37 +1,36 @@
 ## 女生节快乐！
 
-You can use the [editor on GitHub](https://github.com/morestory/morestory/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+作者：野鹿志
+链接：https://www.zhihu.com/question/59584139/answer/238441690
+来源：知乎
+著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/morestory/morestory/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+<html>
+<head>
+<title>随机显示文字</title>
+<style>
+#text {
+border: 1px solid #FA9150;
+width: 300px;
+background: #FEF1E9;
+color: #000000;
+line-height: 50px;
+text-align: center;
+font-size: 14px;
+font-weight: bold;
+}
+</style>
+<script>
+function content() {
+var butong_net = new Array('大家好，我是马鹿野郎','国庆节快乐','不停的好奇，不停的学习','公众号野鹿志','我是个野路子','我喜欢大幂幂','这是一个测试'); 
+var butong_net2 = Math.floor(Math.random() * butong_net.length); 
+var text = document.getElementById("text");
+text.firstChild.nodeValue = butong_net[butong_net2];
+}
+window.onload = content;
+</script>
+</head>
+<body>
+<p id="text">野鹿志测试</p>
+</body>
+</html>
