@@ -1,7 +1,13 @@
 ## 女生节快乐！
 
+作者：野鹿志
+链接：https://www.zhihu.com/question/59584139/answer/238441690
+来源：知乎
+著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
+
 <html>
 <head>
+<title>随机显示文字</title>
 <style>
 #text {
 border: 1px solid #FA9150;
@@ -25,5 +31,6 @@ window.onload = content;
 </script>
 </head>
 <body>
+<p id="text">野鹿志测试</p>
 </body>
 </html>
