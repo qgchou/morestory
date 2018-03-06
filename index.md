@@ -1,10 +1,8 @@
 # <center>女生节快乐！</center>
 
 
-
 <html>
 <head>
-<center>
 <title>这是一个表白</title>
 <style>
 #text {
@@ -13,8 +11,8 @@ width: 300px;
 background: #FEF1E9;
 color: #000000;
 line-height: 50px;
-text-align: center;
-font-size: 22px;
+text-align: right;
+font-size: 20px;
 font-weight: bold;
 }
 </style>
@@ -27,7 +25,6 @@ text.firstChild.nodeValue = butong_net[butong_net2];
 }
 window.onload = content;
 </script>
-</center>
 </head>
 <body>
 <p id="text">这是一个表白</p>
