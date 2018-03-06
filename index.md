@@ -1,4 +1,4 @@
-# <center>女生节快乐！</center>
+# <center>2018.03.07表白墙：</center>
 
 
 <html>
@@ -11,9 +11,10 @@ width: 300px;
 background: #FEF1E9;
 color: #000000;
 line-height: 50px;
-text-align: right;
+text-align: center;
 font-size: 20px;
 font-weight: bold;
+margin: 10px auto;
 }
 </style>
 <script>
